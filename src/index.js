@@ -4,10 +4,9 @@ import App from "./App";
 import { MoralisProvider } from "react-moralis";
 import "./index.css";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-import QuickStart from "components/QuickStart";
-
 const APP_ID = "m51lB6A8uygjdUKKwQqAt20MQrO7HHJrWxgC2RhQ";
 const SERVER_URL = "https://1xzpdwatopkj.usemoralis.com:2053/server";
+
 
 const Application = () => {
   const isServerInfo = APP_ID && SERVER_URL ? true : false;
@@ -25,7 +24,6 @@ const Application = () => {
   else {
     return (
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <QuickStart />
       </div>
     );
   }

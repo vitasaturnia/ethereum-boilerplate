@@ -30,7 +30,8 @@ function Wallet() {
     <Card
       style={styles.card}
       title={
-        <div style={styles.header}>
+        <div className="has-text-centered
+        " style={styles.header}>
           <Blockie scale={5} avatar currentWallet style />
           <Address size="6" copyable />
           <NativeBalance />

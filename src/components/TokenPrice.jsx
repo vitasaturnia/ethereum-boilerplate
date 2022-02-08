@@ -23,7 +23,7 @@ function TokenPrice(props) {
   const noLogoToken = "https://etherscan.io/images/main/empty-token.png";
 
   return (
-    <div style={styles.token}>
+    <div className="has-text-warning" style={styles.token}>
       <img
         src={props.image || noLogoToken}
         alt="logo"
